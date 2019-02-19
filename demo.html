@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>area</title>
+    <meta name="author" content="yihu.com"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="../../cross/css/cross.css" type="text/css" />
+    <link rel="stylesheet" href="../../cross/css/ui.all.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/demo.css" type="text/css" />
+</head>
+
+<body class="bgc-f2f4f6">
+<div class="c-main">
+	<ul class="c-list bgc-fff c-f15">
+    	<li class="list-arrow-r ptb8">
+        	<div class="c-list-key pr20">选择地区</div>
+        	<div class="c-list-info"><input type="text" class="listform-text c-t-right" placeholder="请选择" id="areaChoo" /></div>
+        </li>
+    </ul>
+    <div class="lkcode">
+        <p>参数说明：</p>
+        <p>zone：是否选择区，默认true</p>
+        <p>full：是否显示完整地区，默认false</p>
+    </div>
+</div>
+<script type="text/javascript" src="../../cross/js/jquery/2.1.3/jquery.js"></script>
+<link rel="stylesheet" href="css/cmarea.css" type="text/css" />
+<script type="text/javascript" src="js/cmarea.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#areaChoo').cmArea({full:true});
+});
+</script>
+</body>
+</html>
